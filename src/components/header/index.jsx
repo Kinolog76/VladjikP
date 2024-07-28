@@ -21,7 +21,7 @@ function Header() {
     <HeaderWrapper>
       <ParticleBg className="bg-header-particle" />
       <div className="header container">
-        <a href="/">
+        <a href="https://kinolog76.github.io/VladjikP/">
           <HeaderText />
         </a>
         <HeaderMenu />
