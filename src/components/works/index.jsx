@@ -34,20 +34,20 @@ function Works() {
     Sites: [
       {
         name: "CRM Dashboard",
-        img: "/public/work/sites/crm.png",
+        img: "/work/sites/crm.png",
         site: "https://kinolog76.github.io/websites-template/games-shop/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/CRM-Dashboard",
       },
       {
         name: "Game Shop",
-        img: "/public/work/sites/games.png",
+        img: "/work/sites/games.png",
         site: "https://kinolog76.github.io/websites-template/games-shop/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/games-shop",
       },
 
       {
         name: "NLT Crypto",
-        img: "/public/work/sites/nlt.png",
+        img: "/work/sites/nlt.png",
         site: "https://kinolog76.github.io/websites-template/NLT-Crypto/index.html",
 
         github: "https://github.com/Kinolog76/websites-template/tree/main/NLT-Crypto",
@@ -55,7 +55,7 @@ function Works() {
 
       {
         name: "Excellent",
-        img: "/public/work/sites/excellent.png",
+        img: "/work/sites/excellent.png",
 
         site: "https://kinolog76.github.io/websites-template/Excellent/index.html",
 
@@ -65,7 +65,7 @@ function Works() {
       {
         name: "Go-To",
 
-        img: "/public/work/sites/go-to.png",
+        img: "/work/sites/go-to.png",
 
         site: "https://kinolog76.github.io/websites-template/Go-To/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/Go-To",
@@ -73,7 +73,7 @@ function Works() {
       {
         name: "Wallpaper Shop",
 
-        img: "/public/work/sites/wallpaper.png",
+        img: "/work/sites/wallpaper.png",
         site: "https://kinolog76.github.io/websites-template/Wallpaper/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/Wallpaper",
       },
@@ -83,7 +83,7 @@ function Works() {
       {
         name: "React Random Color Generator",
 
-        img: "/public/work/sites/random_color_generator.png",
+        img: "/work/sites/random_color_generator.png",
 
         site: "https://kinolog76.github.io/React-rangom-color-generator/",
 
@@ -92,7 +92,7 @@ function Works() {
       {
         name: "React Github Profile Finder",
 
-        img: "/public/work/sites/github_profile_finder.png",
+        img: "/work/sites/github_profile_finder.png",
 
         site: "https://kinolog76.github.io/React-github-profile-finder/",
         github: "https://github.com/Kinolog76/React-github-profile-finder",
@@ -100,7 +100,7 @@ function Works() {
       {
         name: "React todo list",
 
-        img: "/public/work/sites/todo_list.png",
+        img: "/work/sites/todo_list.png",
 
         site: "https://kinolog76.github.io/React-todo-list/",
 
@@ -109,7 +109,7 @@ function Works() {
       {
         name: "React pizza app",
 
-        img: "/public/work/sites/pizza_app.png",
+        img: "/work/sites/pizza_app.png",
 
         github: "https://github.com/Kinolog76/React-pizza-app",
       },
@@ -117,7 +117,7 @@ function Works() {
       {
         name: "JS Hangman game",
 
-        img: "/public/work/sites/hangman_game.png",
+        img: "/work/sites/hangman_game.png",
 
         site: "https://kinolog76.github.io/hangman-game-js/",
 
@@ -128,7 +128,7 @@ function Works() {
       {
         name: "Parsing and sending results to Google Sheets",
 
-        img: "/public/work/sites/py.png",
+        img: "/work/sites/py.png",
 
         github: "https://github.com/Kinolog76/data-to-google-sheets",
       },
@@ -136,14 +136,14 @@ function Works() {
       {
         name: "SQL translater",
 
-        img: "/public/work/sites/py.png",
+        img: "/work/sites/py.png",
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/sql-translater",
       },
 
       {
         name: "Find broken images in .md files",
 
-        img: "/public/work/sites/py.png",
+        img: "/work/sites/py.png",
 
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/find-broken-image-links",
       },
@@ -151,7 +151,7 @@ function Works() {
       {
         name: "Transfer files on keyword",
 
-        img: "/public/work/sites/py.png",
+        img: "/work/sites/py.png",
 
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/transfer-files-on-keyword",
       },
@@ -159,7 +159,7 @@ function Works() {
       {
         name: "File name to folder",
 
-        img: "/public/work/sites/py.png",
+        img: "/work/sites/py.png",
 
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/file-name-to-folder",
       },
@@ -167,7 +167,7 @@ function Works() {
       {
         name: "Rename and add to exel",
 
-        img: "/public/work/sites/py.png",
+        img: "/work/sites/py.png",
 
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/rename-and-add-to-exel",
       },

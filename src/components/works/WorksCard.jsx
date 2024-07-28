@@ -7,11 +7,11 @@ function WorksCard({ name, img, site, github }) {
       </div>
       <div className="works-card-links">
         <a href={github} target="_blank">
-          <img src="/public/work/icons/git.svg" alt="" />
+          <img src="/work/icons/git.svg" alt="" />
         </a>
         {site && (
           <a href={site} target="_blank">
-            <img src="/public/work/icons/link.svg" alt="" />
+            <img src="/work/icons/link.svg" alt="" />
           </a>
         )}
       </div>

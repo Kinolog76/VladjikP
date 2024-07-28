@@ -1,4 +1,4 @@
-import photo from "/public/main_photo.png";
+import photo from "/main_photo.png";
 
 function AboutPhoto() {
   return (
