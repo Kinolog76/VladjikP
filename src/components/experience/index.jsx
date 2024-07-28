@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import ExperienceJob from "./ExperienceJob";
 import ExperienceCourses from "./ExperienceCourses";
-
+import mainBg from "/public/main_bg.webp";
 function Experience() {
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +16,7 @@ function Experience() {
   }, []);
   return (
     <div id="experience" className="experience">
-      <div style={{ backgroundImage: "url(/public/main_bg.webp)" }} className="paralax"></div>
+      <div style={{ backgroundImage: `url(${mainBg})` }} className="paralax"></div>
       <div className="container">
         <h2 className="title">Experience</h2>
         <h3 className="experience_subtitle">Work experience</h3>

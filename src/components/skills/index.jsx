@@ -21,14 +21,14 @@ import tailwindIcon from "/public/tech_icons/tailwind.png";
 import bs4Icon from "/public/tech_icons/bs4.webp";
 import seleniumIcon from "/public/tech_icons/se.png";
 import npmIcon from "/public/tech_icons/npm.png";
-
+import edBg from "/public/ed_bg.svg";
 import "swiper/css/scrollbar";
 
 function Skills() {
   return (
     <div
       style={{
-        backgroundImage: "url(/public/ed_bg.svg)",
+        backgroundImage: `url(${edBg})`,
         boxShadow: "inset 0 0 100px 0 #00bfff38, 0 0 100px 0 #00bfff38",
       }}
       id="skills"
