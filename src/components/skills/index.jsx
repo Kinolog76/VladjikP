@@ -5,6 +5,23 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import jsIcon from "/public/tech_icons/js.png";
+import reactIcon from "/public/tech_icons/react.png";
+import pythonIcon from "/public/tech_icons/python.png";
+import phpIcon from "/public/tech_icons/php.png";
+import hugoIcon from "/public/tech_icons/hugo.png";
+import htmlIcon from "/public/tech_icons/html.png";
+import cssIcon from "/public/tech_icons/css.png";
+import seoIcon from "/public/tech_icons/seo.png";
+import apiIcon from "/public/tech_icons/api.png";
+import gitIcon from "/public/tech_icons/git.png";
+import scssIcon from "/public/tech_icons/scss.png";
+import bootstrapIcon from "/public/tech_icons/bootstrap.png";
+import tailwindIcon from "/public/tech_icons/tailwind.png";
+import bs4Icon from "/public/tech_icons/bs4.webp";
+import seleniumIcon from "/public/tech_icons/se.png";
+import npmIcon from "/public/tech_icons/npm.png";
+
 import "swiper/css/scrollbar";
 
 function Skills() {
@@ -37,52 +54,52 @@ function Skills() {
             },
           }}>
           <SwiperSlide>
-            <SkillCard skill="JavaScript" icon="/tech_icons/js.png" />
+            <SkillCard skill="JavaScript" icon={jsIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="React" icon="/tech_icons/react.png" />
+            <SkillCard skill="React" icon={reactIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="Python" icon="/tech_icons/python.png" />
+            <SkillCard skill="Python" icon={pythonIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="PHP" icon="/tech_icons/php.png" />
+            <SkillCard skill="PHP" icon={phpIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="Hugo Go framework" icon="/tech_icons/hugo.png" />
+            <SkillCard skill="Hugo Go framework" icon={hugoIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="HTML 5" icon="/tech_icons/html.png" />
+            <SkillCard skill="HTML 5" icon={htmlIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="CSS 3" icon="/tech_icons/css.png" />
+            <SkillCard skill="CSS 3" icon={cssIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="SEO" icon="/tech_icons/seo.png" />
+            <SkillCard skill="SEO" icon={seoIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="API" icon="/tech_icons/api.png" />
+            <SkillCard skill="API" icon={apiIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="Git" icon="/tech_icons/git.png" />
+            <SkillCard skill="Git" icon={gitIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="SCSS" icon="/tech_icons/scss.png" />
+            <SkillCard skill="SCSS" icon={scssIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="Bootstrap" icon="/tech_icons/bootstrap.png" />
+            <SkillCard skill="Bootstrap" icon={bootstrapIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="Tailwind CSS" icon="/tech_icons/tailwind.png" />
+            <SkillCard skill="Tailwind CSS" icon={tailwindIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="BeautifulSoup4" icon="/tech_icons/bs4.webp" />
+            <SkillCard skill="BeautifulSoup4" icon={bs4Icon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="Selenium" icon="/tech_icons/se.png" />
+            <SkillCard skill="Selenium" icon={seleniumIcon} />
           </SwiperSlide>
           <SwiperSlide>
-            <SkillCard skill="NPM" icon="/tech_icons/npm.png" />
+            <SkillCard skill="NPM" icon={npmIcon} />
           </SwiperSlide>
         </Swiper>
       </div>

@@ -3,6 +3,19 @@ import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import WorksCard from "./WorksCard";
 
+import crmImg from "/public/work/sites/crm.png";
+import gamesImg from "/public/work/sites/games.png";
+import nltImg from "/public/work/sites/NLT.png";
+import excellentImg from "/public/work/sites/Excellent.png";
+import gotoImg from "/public/work/sites/Go-To.png";
+import wallpaperImg from "/public/work/sites/Wallpaper.png";
+import randomColorGeneratorImg from "/public/work/sites/random_color_generator.png";
+import githubProfileFinderImg from "/public/work/sites/github_profile_finder.png";
+import todoListImg from "/public/work/sites/todo_list.png";
+import pizzaAppImg from "/public/work/sites/pizza_app.png";
+import hangmanGameImg from "/public/work/sites/hangman_game.png";
+import pyImg from "/public/work/sites/py.png";
+
 const ItemType = "CARD";
 
 function DraggableCard({ id, index, moveCard, ...props }) {
@@ -34,46 +47,37 @@ function Works() {
     Sites: [
       {
         name: "CRM Dashboard",
-        img: "/work/sites/crm.png",
+        img: crmImg,
         site: "https://kinolog76.github.io/websites-template/games-shop/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/CRM-Dashboard",
       },
       {
         name: "Game Shop",
-        img: "/work/sites/games.png",
+        img: gamesImg,
         site: "https://kinolog76.github.io/websites-template/games-shop/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/games-shop",
       },
-
       {
         name: "NLT Crypto",
-        img: "/work/sites/nlt.png",
+        img: nltImg,
         site: "https://kinolog76.github.io/websites-template/NLT-Crypto/index.html",
-
         github: "https://github.com/Kinolog76/websites-template/tree/main/NLT-Crypto",
       },
-
       {
         name: "Excellent",
-        img: "/work/sites/excellent.png",
-
+        img: excellentImg,
         site: "https://kinolog76.github.io/websites-template/Excellent/index.html",
-
         github: "https://github.com/Kinolog76/websites-template/tree/main/Excellent",
       },
-
       {
         name: "Go-To",
-
-        img: "/work/sites/go-to.png",
-
+        img: gotoImg,
         site: "https://kinolog76.github.io/websites-template/Go-To/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/Go-To",
       },
       {
         name: "Wallpaper Shop",
-
-        img: "/work/sites/wallpaper.png",
+        img: wallpaperImg,
         site: "https://kinolog76.github.io/websites-template/Wallpaper/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/Wallpaper",
       },
@@ -82,93 +86,63 @@ function Works() {
     "React / JS": [
       {
         name: "React Random Color Generator",
-
-        img: "/work/sites/random_color_generator.png",
-
+        img: randomColorGeneratorImg,
         site: "https://kinolog76.github.io/React-rangom-color-generator/",
-
         github: "https://github.com/Kinolog76/React-rangom-color-generator",
       },
       {
         name: "React Github Profile Finder",
-
-        img: "/work/sites/github_profile_finder.png",
-
+        img: githubProfileFinderImg,
         site: "https://kinolog76.github.io/React-github-profile-finder/",
         github: "https://github.com/Kinolog76/React-github-profile-finder",
       },
       {
         name: "React todo list",
-
-        img: "/work/sites/todo_list.png",
-
+        img: todoListImg,
         site: "https://kinolog76.github.io/React-todo-list/",
-
         github: "https://github.com/Kinolog76/React-todo-list",
       },
       {
         name: "React pizza app",
-
-        img: "/work/sites/pizza_app.png",
-
+        img: pizzaAppImg,
         github: "https://github.com/Kinolog76/React-pizza-app",
       },
-
       {
         name: "JS Hangman game",
-
-        img: "/work/sites/hangman_game.png",
-
+        img: hangmanGameImg,
         site: "https://kinolog76.github.io/hangman-game-js/",
-
         github: "https://github.com/Kinolog76/hangman-game-js",
       },
     ],
     Python: [
       {
         name: "Parsing and sending results to Google Sheets",
-
-        img: "/work/sites/py.png",
-
+        img: pyImg,
         github: "https://github.com/Kinolog76/data-to-google-sheets",
       },
-
       {
         name: "SQL translater",
-
-        img: "/work/sites/py.png",
+        img: pyImg,
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/sql-translater",
       },
-
       {
         name: "Find broken images in .md files",
-
-        img: "/work/sites/py.png",
-
+        img: pyImg,
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/find-broken-image-links",
       },
-
       {
         name: "Transfer files on keyword",
-
-        img: "/work/sites/py.png",
-
+        img: pyImg,
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/transfer-files-on-keyword",
       },
-
       {
         name: "File name to folder",
-
-        img: "/work/sites/py.png",
-
+        img: pyImg,
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/file-name-to-folder",
       },
-
       {
         name: "Rename and add to exel",
-
-        img: "/work/sites/py.png",
-
+        img: pyImg,
         github: "https://github.com/Kinolog76/Python-scripts/tree/main/rename-and-add-to-exel",
       },
     ],
