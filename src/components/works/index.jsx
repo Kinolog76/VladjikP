@@ -15,6 +15,7 @@ import todoListImg from "/public/work/sites/todo_list.png";
 import pizzaAppImg from "/public/work/sites/pizza_app.png";
 import hangmanGameImg from "/public/work/sites/hangman_game.png";
 import pyImg from "/public/work/sites/py.png";
+import reactImg from "/public/work/sites/react.png";
 
 const ItemType = "CARD";
 
@@ -85,6 +86,22 @@ function Works() {
 
     "React / JS": [
       {
+        name: "React Udemy projects",
+        img: reactImg,
+        github: "https://github.com/Kinolog76/react-course-udemy",
+      },
+      {
+        name: "JS Hangman game",
+        img: hangmanGameImg,
+        site: "https://kinolog76.github.io/hangman-game-js/",
+        github: "https://github.com/Kinolog76/hangman-game-js",
+      },
+      {
+        name: "React pizza app",
+        img: pizzaAppImg,
+        github: "https://github.com/Kinolog76/React-pizza-app",
+      },
+      {
         name: "React Random Color Generator",
         img: randomColorGeneratorImg,
         site: "https://kinolog76.github.io/React-rangom-color-generator/",
@@ -102,21 +119,10 @@ function Works() {
         site: "https://kinolog76.github.io/React-todo-list/",
         github: "https://github.com/Kinolog76/React-todo-list",
       },
-      {
-        name: "React pizza app",
-        img: pizzaAppImg,
-        github: "https://github.com/Kinolog76/React-pizza-app",
-      },
-      {
-        name: "JS Hangman game",
-        img: hangmanGameImg,
-        site: "https://kinolog76.github.io/hangman-game-js/",
-        github: "https://github.com/Kinolog76/hangman-game-js",
-      },
     ],
     Python: [
       {
-        name: "Parsing and sending results to Google Sheets",
+        name: "Parsing data from site to Google Sheets",
         img: pyImg,
         github: "https://github.com/Kinolog76/data-to-google-sheets",
       },
