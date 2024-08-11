@@ -99,6 +99,7 @@ function Works() {
       {
         name: "React pizza app",
         img: pizzaAppImg,
+        site: "https://kinolog76.github.io/React-pizza-app/",
         github: "https://github.com/Kinolog76/React-pizza-app",
       },
       {
