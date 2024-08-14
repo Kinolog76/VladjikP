@@ -18,7 +18,7 @@ function AboutText() {
       <div className="ab__job">Front-End Developer</div>
       <div className="ab__text">
         Front-End Developer with a strong background in building responsive and interactive websites
-        and web applications. Experienced in JavaScript, React, Python, PHP/Laravel (basics), HTML,
+        and web applications. Experienced in JavaScript, React, Redux, TypeScript, Python, HTML,
         CSS (SCSS), and server management. Enthusiastic about creating user-friendly interfaces and
         optimizing web performance. Also skilled in writing automation scripts and web scraping with
         Python.
