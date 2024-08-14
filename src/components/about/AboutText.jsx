@@ -25,7 +25,7 @@ function AboutText() {
       </div>
       <div className="ab__download-box">
         <a
-          href="https://drive.google.com/file/d/1bCZ0LTJ38Uy4LIlJiWjG-rxi_6T21gp8/view?usp=sharing"
+          href="https://drive.google.com/file/d/1QVda6cvGz8AWfLWYRE5l2o2J_qi8gbqO/view?usp=sharing"
           target="_blank"
           className="ab__download">
           <p>CV Resume</p>
