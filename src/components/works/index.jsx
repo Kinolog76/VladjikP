@@ -93,8 +93,8 @@ function Works() {
       {
         name: "JS Hangman game",
         img: hangmanGameImg,
-        site: "https://kinolog76.github.io/hangman-game-js/",
-        github: "https://github.com/Kinolog76/hangman-game-js",
+        site: "https://kinolog76.github.io/JS-game-hangman/",
+        github: "https://github.com/Kinolog76/JS-game-hangman",
       },
       {
         name: "React pizza app",
