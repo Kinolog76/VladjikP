@@ -36,7 +36,7 @@ function App() {
         <ParticleBgPortfolio />
       </div>
       <div className="contact-btn-container">
-        <a target="_blank" href="https://www.linkedin.com/in/vladislavpashora/" className="contact-btn">
+        <a target="_blank" href="#" className="contact-btn">
           Contact me
         </a>
       </div>

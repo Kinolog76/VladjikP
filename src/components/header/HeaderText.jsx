@@ -9,7 +9,7 @@ const HeaderLogo = styled.div`
   padding: 0 3px 0 3px;
   font-family: "Handjet", cursive;
 `;
-const texts = ["Front-End Developer", "Vladislav Pashora"];
+const texts = ["Front-End Developer", "Vladyslav"];
 function HeaderText() {
   const typingTextRef = useRef("");
   const currentIndexRef = useRef(0);
