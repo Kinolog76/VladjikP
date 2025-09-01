@@ -49,7 +49,7 @@ function Works() {
       {
         name: "CRM Dashboard",
         img: crmImg,
-        site: "https://kinolog76.github.io/websites-template/games-shop/index.html",
+        site: "https://kinolog76.github.io/websites-template/CRM-Dashboard/index.html",
         github: "https://github.com/Kinolog76/websites-template/tree/main/CRM-Dashboard",
       },
       {
