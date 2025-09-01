@@ -28,9 +28,9 @@ function App() {
   return (
     <>
       <Header />
-      <About />
+      {/* <About /> */}
       <Skills />
-      <Experience />
+      {/* <Experience /> */}
       <div style={{ position: "relative" }} className="works-container">
         <Works />
         <ParticleBgPortfolio />
